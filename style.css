@@ -15,6 +15,24 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 30px;
+}
+
+.btn {
+  background-color: #5765f2;
+  color: #fff;
+  width: 17vw;
+  height: 5vh;
+  border-radius: 25px;
+  border: 0;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  
+}
+
 .pcontent {
   font-size: 18px;
 }
@@ -54,11 +72,29 @@ h2 {
 #conp3 {
   width: 20vw;
   text-align: center;
-  background-image: src="bilder/bg.svg";
+}
+
+#conp4 {
+  width: 30vw;
+  background-image: url(bilder/bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .structure2 {
   width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.structure3 {
+  width: 25vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,14 +117,14 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
+  min-height: 60vh;
   
 }
 
 .con2 {
   background-color: #f6f6f6;
   width: 100vw;
-  min-height: 80vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +133,7 @@ h2 {
 .con3 {
   background-color: #fff;
   width: 100vw;
-  min-height: 80vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;

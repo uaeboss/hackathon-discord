@@ -8,10 +8,65 @@ div.body {
     width: 100 vw;
 }
 
-.header {
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  div.body {
+      width: 100 vw;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0 0 40px 0;
+    padding: 0;
+    width: 100%;
 
-}
+    
+  }
+  header {
+    background-image: url(/img/discord-gaming-community-vector-8bj6he46773yglph.jpeg);
+    height: 400px;
+    
+  }
+  .navtext{
+    text-align: center;
+    border: 0 10px 0 10px solid;
+  }
+  nav ul li{
+    display: inline-block;
+    text-align: center;
+    width:155px;
+    
+  }
+  
+  
+  .foot>hr>ul>li a {
+    text-decoration:none;
+    display: inline-block;
+    list-style: none;
+    
+  }
+ 
+  div ul li a{
+    text-decoration: none;
+  }
 
+
+  .navtext{
+    border:5px
+    
+  }
+  .footer{
+    border:10px 0 2px 0;
+    
+    height:fit-content;
+  }
+  
+  .content {
+  
+  }
 .content {
 
 }

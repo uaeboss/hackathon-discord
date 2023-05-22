@@ -11,7 +11,8 @@ body {
     list-style: none;
     margin:  0 0 40px 0;
     padding: 0;
-    width: 100%;
+    
+   
     
     
 
@@ -27,28 +28,30 @@ body {
   .navtext{
     text-align: center;
     padding: 10px 250px 0  250px;
+    color: white;
     
+    
+  }
+
+  .form2{
     
   }
   nav ul li{
     display: inline-block;
     text-align: center;
     width:155px;
+    color: white;
     
   }
   
   
-  .foot>hr>ul>li a {
+  .footer>ul>li {
     text-decoration:none;
     display: inline-block;
     list-style: none;
     
   }
  
-  div ul li a{
-    text-decoration: none;
-  }
-
 
   .navtext{
     border:5px

@@ -2,16 +2,33 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 div.body {
-    width: 100 vw;
+  width: 100 vw;
+  margin: 0;
 }
 
 .header {
-
 }
 
 .content {
+  width: 100 vw;
+  margin: 0;
+}
 
+.footer {
+}
+
+.con1 {
+  background-color: #fff;
+}
+
+.con2 {
+  background-color: #f6f6f6;
+}
+
+.con3 {
+  background-color: #fff;
 }

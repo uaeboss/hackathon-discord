@@ -26,18 +26,32 @@ img {
 
 h2 {
   font-size: 2.5em;
+  font-weight: bolder;
+  margin-top: 0;
 }
 
 .header {
 }
 
 #img1, #img2, #img3 {
-  max-width: 678px;  
+  max-width: 25%;  
 }
 
 #conp1, #conp2, #conp3 {
-  width: 15vw;
-  font-size: clamp(16px,2vw,20px);
+  max-width: 15%;
+}
+
+#img4 {
+max-width: 75vw;
+}
+
+#conp4 {
+  max-width: 50vw;
+  }
+  
+
+.pcontent {
+  font-weight: lighter;
   line-height: 1.625;
 }
 
@@ -54,7 +68,6 @@ h2 {
 .con1 {
   background-color: #fff;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100vw;
@@ -70,6 +83,7 @@ h2 {
   align-items: center;
   width: 100vw;
   height: 680px;
+  margin: 0;
 }
 
 .con3 {
@@ -81,4 +95,17 @@ h2 {
   align-items: center;
   width: 100vw;
   height: 680px;
+  margin: 0;
+}
+
+.con4 {
+  background-color: #fff;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 680px;
+  margin: 0;
 }

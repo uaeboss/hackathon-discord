@@ -2,6 +2,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  div.body {
+      width: 100 vw;
+  }
+  nav ul {
+    list-style: none;
+    margin:  0 0 40px 0;
+    padding: 0;
+    
+   
+    
+    
+
+    
+  }
+  .header {
+    background-color: aqua;
+    background-image: url(/img/discord-gaming-community-vector-8bj6he46773yglph.jpeg);
+    height: 400px;
+  margin-bottom: 30px;
+    
+  }
+  .navtext{
+    text-align: center;
+    padding: 10px 250px 0  250px;
+    color: white;
+    
+    
+  }
+
+  .form2{
+    
+  }
+  nav ul li{
+    display: inline-block;
+    text-align: center;
+    width:155px;
+    color: white;
+    
+  }
+  
+  
+  .footer>ul>li {
+    text-decoration:none;
+    display: inline-block;
+    list-style: none;
+    
+  }
+ 
+
+  .navtext{
+    border:5px
+    
+  }
+  .footer{
+    border:10px 0 2px 0;
+    
+    height:fit-content;
+  }
+  
+  .content {
+  
+  }
+=======
   margin: 0;
   padding: 0;
   box-sizing: border-box;

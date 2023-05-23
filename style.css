@@ -7,7 +7,6 @@ body {
   box-sizing: border-box;
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
-
 }
 
 div.body {
@@ -67,7 +66,7 @@ nav ul li a {
 #button2 {
   border-radius: 15px;
   background-color: #f1f0f3;
-  border: 4px;
+  border: 4px solid #f1f0f3;
   height: 25px;
   margin-right: 10px;
 }
@@ -75,7 +74,7 @@ nav ul li a {
 #button3 {
   border-radius: 15px;
   background-color: #f1f0f3;
-  border: 4px;
+  border: 4px solid #f1f0f3;
   height: 25px;
   margin-left: 10px;
 }
@@ -247,13 +246,24 @@ h3 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fff;
-  font-family: "Open Sans", sans-serif;
   background-color: #23272a;
   min-height: 35vh;
+  color: #fff;
+  padding: 50px;
 }
 
 .bold {
   font-weight: bold;
   font-size: 45px;
+}
+
+.list2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact {
+  padding: 20px 50px 20px 50px;
+  letter-spacing: 0.1em;
 }

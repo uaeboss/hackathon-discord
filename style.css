@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 div.body {
@@ -243,6 +244,7 @@ h3 {
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
 }
+
 
 .foot {
   background-color: #23272a;
